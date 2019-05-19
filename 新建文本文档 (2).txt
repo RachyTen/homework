@@ -1,0 +1,14 @@
+先用命令 netstat -ano 看一下各个端口占用和进程PID
+tomcat cd /usr/local/apache-tomcat-8.5.40/bin
+ps -ef|grep PID即可查看进程的详细情况。
+控制台动态输出方式启动 ./catalina.sh run 动态地显示tomcat后台的控制台输出信息,Ctrl+C后退出并关闭服务
+作为服务启动 nohup ./startup.sh &
+./shutdown.sh
+# ps -ef|grep tomcat
+cat catalina.out
+在linux下输入命令ifconfig看一下IP地址
+netstat -ap |grep 8080 //查找8080端口是否被占用
+netstat -tln   //表示以数字形式查看正在监听的端口
+netstat -ap   //查看所有应用占用端口情况
+/usr/local/apache-tomcat-xxxx/conf/server.xml
+晋ICP备19000532号
