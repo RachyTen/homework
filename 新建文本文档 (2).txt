@@ -11,4 +11,5 @@ netstat -ap |grep 8080 //查找8080端口是否被占用
 netstat -tln   //表示以数字形式查看正在监听的端口
 netstat -ap   //查看所有应用占用端口情况
 /usr/local/apache-tomcat-xxxx/conf/server.xml
+net start mysql
 晋ICP备19000532号
